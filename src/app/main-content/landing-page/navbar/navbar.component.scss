@@ -1,8 +1,20 @@
+@import './../../../../styles.scss';
+
+@mixin dflex($jc, $ai) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+}
+@mixin boarderStyling($bStyle){
+    border: 2px $bStyle whitesmoke;
+    border-radius: 10px;
+
+}
+
 nav {
     position: absolute;
     top: 20px;
     width: 100%;
-    // padding: 32px;
     display: flex;
     justify-content: space-between;
     >img {
@@ -11,7 +23,6 @@ nav {
         margin-left: 100px;
     }
     >div {
-        // width: 350px;
         display: flex;
         align-items: center;
         >a {
@@ -35,13 +46,9 @@ a {
 }
 
 .phone_btn {
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid whitesmoke;
-    border-radius: 10px;
-    background-color: #9f0908;
+    @include dflex(center, center);
+    @include boarderStyling(solid);
+    background-color: $dark_red;
     margin-right: 100px;
     margin-left: 8px;
     padding: 8px;
