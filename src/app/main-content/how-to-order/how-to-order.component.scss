@@ -1,0 +1,41 @@
+.howToOrder {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.howToOrder h1 {
+    font-size: 80px;
+    margin-top: 120px;
+    margin-bottom: 64px;
+    color: #9f0908;
+}
+
+.howToContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    img {
+        width: 128px;
+        height: 128px;
+        margin-bottom: 16px;
+    }
+    h2 {
+        font-size: 48px;
+        width: 160px;
+        text-align: center;
+        font-family: 'Economica';
+        font-weight: 700;
+    }
+    margin-bottom: 120px;
+}

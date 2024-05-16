@@ -1,0 +1,20 @@
+.footerMainContent{
+    background-color: #0A141E;
+    height: 144px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerContent{
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    >img {
+        height: 44px
+    }
+}
